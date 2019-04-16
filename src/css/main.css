@@ -1,0 +1,126 @@
+html,
+body {
+	background-color: #f5f5f5;
+	margin: 0;
+}
+
+.box {
+	flex: 1;
+	width: 100%;
+	min-height: 100vh;
+	margin: auto;
+	position: relative;
+}
+
+@media (min-width: 416px) {
+	.box {
+		width: 415px;
+		min-height: 600px;
+	}
+	body {
+		margin-top: 10px;
+	}
+}
+
+.box.Light {
+	background-color: #ffffff;
+}
+
+.box.Dark {
+	background-color: #1f3240;
+}
+
+.chat-feed {
+	overflow-y: scroll;
+	max-height: 65vh;
+	scrollbar-width: none;
+}
+
+.chat-feed::-webkit-scrollbar {
+	display: none;
+}
+
+.message-group-wrapper {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: auto;
+	position: relative;
+}
+
+.chat-bubble-container {
+	overflow: auto;
+	clear: both;
+}
+
+.message-group-meta {
+	margin-bottom: 5px;
+	color: #cccccc;
+}
+
+.chat-bubble {
+	background-color: #0084ff;
+	border-radius: 20px;
+	margin: 1px auto;
+	max-width: 80%;
+	padding: 8px 14px;
+	width: -webkit-fit-content;
+	float: right;
+}
+
+.chat-bubble-alt {
+	background-color: #eeeeee;
+	float: left;
+}
+
+.settings-container {
+	overflow-y: scroll;
+	scrollbar-width: none;
+}
+
+.settings-container::-webkit-scrollbar {
+	display: none;
+}
+
+.float-right {
+	float: right;
+}
+
+.text-white {
+	color: #ffffff !important;
+}
+
+.text-dark {
+	color: #1f3240 !important;
+}
+
+.emoji-mart {
+	color: #1f3240;
+	font-size: 14px;
+	border: none;
+	position: absolute;
+	bottom: 90px;
+	width: 100% !important;
+	left: 0px;
+}
+
+.emoji-mart-category-label span {
+	font-weight: 400;
+}
+
+.Dark .emoji-mart {
+	color: #ffffff;
+	background-color: #1f3240;
+}
+
+.Dark .emoji-mart-category-label span {
+	background-color: #1f3240;
+}
+
+.emoji-mart-scroll {
+	height: 170px;
+	scrollbar-width: none;
+}
+
+.emoji-mart-scroll::-webkit-scrollbar {
+	display: none;
+}
