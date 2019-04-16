@@ -14,11 +14,11 @@
 
 ## Screenshots
 
-<img src="./screenshots/chatty1.png" alt="Chatty" width="47%">
-<img align="right" src="./screenshots/chatty2.png" alt="Chatty" width="47%">
+<img src="https://raw.githubusercontent.com/temideoye/chatty/master/screenshots/Chatty1.png" alt="Chatty" width="47%">
+<img align="right" src="https://raw.githubusercontent.com/temideoye/chatty/master/screenshots/Chatty2.png" alt="Chatty" width="47%">
 <br /><br />
-<img src="./screenshots/chatty3.png" alt="Chatty" width="47%">
-<img align="right" src="./screenshots/chatty4.png" alt="Chatty" width="47%">
+<img src="https://raw.githubusercontent.com/temideoye/chatty/master/screenshots/Chatty3.png" alt="Chatty" width="47%">
+<img align="right" src="https://raw.githubusercontent.com/temideoye/chatty/master/screenshots/Chatty4.png" alt="Chatty" width="47%">
 
 ## Key Features
 
