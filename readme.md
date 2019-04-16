@@ -53,16 +53,16 @@ To clone and run this application, first install [Git](https://git-scm.com/) and
 ```shell
 
 # clone this repository
-git clone https://github.com/temideoye/chatty
+$ git clone https://github.com/temideoye/chatty
 
 # go into the repository
-cd chatty
+$ cd chatty
 
 # install necessary dependencies
-npm install
+$ npm install
 
 # start the application
-npm start
+$ npm start
 ```
 
 ## License
