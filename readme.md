@@ -51,18 +51,23 @@
 To clone and run this application, first install [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/download/) if you don't already have them installed. Next, from your Terminal (Mac) or Command Line (Windows), run the following commands:
 
 ```shell
-
 # clone this repository
-$ git clone https://github.com/temideoye/chatty
+git clone https://github.com/temideoye/chatty
+```
 
-# go into the repository
-$ cd chatty
+```shell
+# change into chatty directory
+cd chatty
+```
 
-# install necessary dependencies
-$ npm install
+```shell
+# install node dependencies
+npm install
+```
 
+```shell
 # start the application
-$ npm start
+npm start
 ```
 
 ## License
